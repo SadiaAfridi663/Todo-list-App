@@ -37,6 +37,16 @@ h1 {
     border: 1px solid transparent;
 }
 
+#input::placeholder {
+    color: rgb(129, 127, 127);
+    font-size: 15px;
+  }
+#input:focus{
+ outline: none;
+
+
+}
+
 .add-btn {
     padding: 0px 15px;
     width: 70px;
