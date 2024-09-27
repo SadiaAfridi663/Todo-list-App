@@ -16,17 +16,23 @@ body {
 
 .task-container {
     padding: 0px 10px;
-    width: 350px;
+    width: 35%;
+    /* border: 1px solid; */
 }
 
 h1 {
     text-align: center;
+    font-size: calc(10px + 2vw);
 }
 .container {
     display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
     border-radius: 7px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 #input {
@@ -35,6 +41,7 @@ h1 {
     padding: 8px 15px;
     border-radius: 7px;
     border: 1px solid transparent;
+    display: flex;
 }
 
 #input::placeholder {
@@ -49,12 +56,15 @@ h1 {
 
 .add-btn {
     padding: 0px 15px;
-    width: 70px;
+    width: 20%;
     border-radius: 7px;
     background-color: #377fec;
     color: white;
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .add-btn:hover {
@@ -70,9 +80,10 @@ h1 {
     padding-left: 0;
     max-height: 300px;
     overflow-y: auto;
+   
 }
 .list{
-    width: 95%;
+    width: 86%;
     min-height: 50px;
     border: 1px solid #f8f8f8;
     box-shadow: 1px 0px 3px #dad8d879;
@@ -85,10 +96,11 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 
 }
-
 .btn-container{
     display: flex;
     gap: 10px;
+    
+
 }
 button{
     padding: 10px 10px;
@@ -99,13 +111,17 @@ button{
 }
 .complete-btn{
     background-color: #28a745;
+    width: 42%;
 }
 .complete-btn:hover{
     background-color: #1e7933;
 }
 .remove-btn{
-    
+    width: 42%;
     background-color:#fc021b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .remove-btn:hover{
     background-color: #d30419;
@@ -113,4 +129,6 @@ button{
 .completed{
     text-decoration: line-through;
     color: gray;
+
 }
+
