@@ -60,3 +60,14 @@ h1 {
 .add-btn:hover {
     background-color: #1e70ec;
 }
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-left: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
