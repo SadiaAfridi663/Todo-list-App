@@ -14,4 +14,7 @@ Addbtn.addEventListener('click', function () {
     text.innerHTML = inputValue
     li.setAttribute('class', "list")
 
+     var firstitem = taskList.firstChild;
+     taskList.insertBefore(li, firstitem); 
+
 })
