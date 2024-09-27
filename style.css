@@ -85,3 +85,32 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 
 }
+
+.btn-container{
+    display: flex;
+    gap: 10px;
+}
+button{
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: 1px solid;
+    color: white; 
+    cursor: pointer;
+}
+.complete-btn{
+    background-color: #28a745;
+}
+.complete-btn:hover{
+    background-color: #1e7933;
+}
+.remove-btn{
+    
+    background-color:#fc021b;
+}
+.remove-btn:hover{
+    background-color: #d30419;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
