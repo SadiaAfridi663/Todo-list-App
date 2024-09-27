@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/todo-bg5.PNG);
+    background-image: url(./assets/todo-bg.PNG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,4 +21,32 @@ body {
 
 h1 {
     text-align: center;
+}
+.container {
+    display: flex;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#input {
+    width: 73%;
+    height: 30px;
+    padding: 8px 15px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+}
+
+.add-btn {
+    padding: 0px 15px;
+    width: 70px;
+    border-radius: 7px;
+    background-color: #377fec;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #1e70ec;
 }
