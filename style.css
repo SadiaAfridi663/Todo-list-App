@@ -17,30 +17,30 @@ body {
 .task-container {
     padding: 0px 10px;
     width: 35%;
-    /* border: 1px solid; */
 }
 
 h1 {
     text-align: center;
     font-size: calc(10px + 2vw);
 }
+
 .container {
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 90%;
+    width: 88%;
     border-radius: 7px;
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+    box-shadow: 1px 0px 3px #d9d8d8;
 }
 
 #input {
     width: 73%;
-    height: 30px;
+    height: 32px;
     padding: 8px 15px;
-    border-radius: 7px;
-    border: 1px solid transparent;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 1px solid transparent; 
     display: flex;
 }
 
@@ -76,52 +76,61 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 7px;
     padding-left: 0;
     max-height: 300px;
     overflow-y: auto;
-   
+    padding: 10px 2px;
 }
-.list{
+.list-item{
     width: 86%;
     min-height: 50px;
-    border: 1px solid #f8f8f8;
-    box-shadow: 1px 0px 3px #dad8d879;
+    box-shadow: 1px 1px 3px #d9d8d8;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    padding: 0px 7px;
+    padding: 0px 6px;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 
 }
-.btn-container{
+.task-content{
     display: flex;
+    align-items: center;
     gap: 10px;
     
 
 }
-button{
-    padding: 10px 10px;
-    border-radius: 7px;
-    border: 1px solid;
+
+.complete-btn{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
     color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
     cursor: pointer;
 }
-.complete-btn{
-    background-color: #28a745;
-    width: 42%;
-}
-.complete-btn:hover{
-    background-color: #1e7933;
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .remove-btn{
-    width: 42%;
+    width: 34px;
+    height: 34px;
     background-color:#fc021b;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
 }
 .remove-btn:hover{
     background-color: #d30419;
